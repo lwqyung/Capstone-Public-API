@@ -1,0 +1,42 @@
+body {
+    background-color: #88AB8E;
+    color: #EEE7DA;
+    font-family: 'Sono', monospace;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h4, em {
+    color: #AFC8AD;
+}
+
+:root {
+    --bs-link-color: #EEE7DA;
+    --bs-link-color-rgb: rgb(238, 231, 218);
+    --bs-link-hover-color: #F2F1EB;
+    --bs-link-hover-color-rgb: rgb(242, 241, 235);
+    --bs-border-color: #AFC8AD;
+    --bs-secondary-color: #EEE7DA;
+}
+
+.btn-primary {
+    --bs-btn-bg: #AFC8AD;
+    --bs-btn-border-color: #AFC8AD;
+    --bs-btn-color: #EEE7DA;
+    --bs-btn-hover-bg: #AFC8AD;
+    --bs-btn-hover-border-color: #EEE7DA;
+    --bs-btn-hover-color: #EEE7DA;    
+    --bs-btn-active-bg: #EEE7DA;
+    --bs-btn-active-border-color: #EEE7DA;
+    --bs-btn-active-color: #AFC8AD;    
+    --bs-btn-disabled-bg: #AFC8AD;
+    --bs-btn-disabled-border-color: #AFC8AD;
+    --bs-btn-disabled-color: #88AB8E;    
+}
+
+.form-select, .form-control {
+    --bs-body-color: #88AB8E;
+    --bs-body-bg:  #EEE7DA;
+}
